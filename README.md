@@ -46,5 +46,5 @@ Here is visualization of how the model performed
 5. Feed in video to the model 
 Below is the video I took by myself and run through the model to see the performance. There are some post-processes I did to have a better performance. To denoise the frames, I cut the sky area. If it's cloudy day, the sky color is very similar to the ground, so the model will label the grey sky as lane as well. Secondly, I used the CV technique of erosion and dilation with 20x20 kernel size to get rid of the noise. 
 <p align="center">
-  <img src="Images/LaneDetection.gif" alt="GIF of Lane Detection" width="350" height="350" >
+  <img src="Images/LaneDetection.gif" alt="GIF of Lane Detection" width="600" height="350" >
 </p>
