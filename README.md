@@ -30,7 +30,7 @@ The model I use is the UNet. However, to match the model output size to the labe
   - Loss Function
   The loss function is Dice Loss function, which is defined as below 
     <p align="center">
-      <img src="https://latex.codecogs.com/gif.latex?1-%5Cfrac%7B2*TP%7D%7B2*TP%20&plus;%20FP&plus;FN%7D" alt="Image of Dice Loss">
+      <img src="Images/DiceLoss.png" alt="Image of Dice Loss">
     </p>
   - Training Process
     <p align="center">
